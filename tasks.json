@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Launch in MiniMicro",
+            "type": "shell",
+            "command": "C:\\Program Files\\MiniMicro\\LaunchInMiniMicro.exe",
+            "isBackground": true,
+            "icon": {
+                "color": "terminal.ansiYellow",
+                "id": "vm-running"
+            },
+            "args": [
+                "${workspaceFolder}",
+                "${file}",
+                "C:\\Program Files\\MiniMicro\\Mini Micro.exe",
+                "-usr2 ${workspaceFolder}",
+                "/usr2"
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "problemMatcher": []
+        }
+    ]
+}
