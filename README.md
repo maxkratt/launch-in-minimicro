@@ -1,6 +1,8 @@
 # Launch in MiniMicro
 This is a [Visual Studio Code](https://code.visualstudio.com/) [task](https://code.visualstudio.com/docs/editor/tasks#vscode) and an [AutoHotkey](https://www.autohotkey.com/) script to enable easy launching of a script in [MiniMicro](https://miniscript.org/MiniMicro/) on Windows.
 
+![launch-task-example](https://user-images.githubusercontent.com/60508288/213512036-2d0da4a8-dfe4-4656-a117-8732864e323d.gif)
+
 ## The script
 The [autohotkey script](LaunchInMiniMicro.ahk) (or the [compiled executable](LaunchInMiniMicro.exe) of it) tries to launch or switch to Mini Micro, and then send the commands to reset, load the file, and then run it.
 
